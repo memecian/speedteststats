@@ -1,3 +1,4 @@
+#!/usr/bin/python
 ### speedtest analyst
 ### by memecian
 ###
