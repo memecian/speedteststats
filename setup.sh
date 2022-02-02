@@ -23,6 +23,11 @@ case $ARCH in
 		;;
 	*)
 esac
+# remove after completion
 echo $ARCHDL
+
+# add CPU Architecture as an environment variable
+
+# download speedtest according to architecture
 printf "https://install.speedtest.net/app/cli/ookla-speedtest-1.1.1-linux-%s.tgz" $ARCHDL
 
