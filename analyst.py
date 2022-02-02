@@ -6,7 +6,8 @@
 import re
 import os
 from datetime import datetime
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+
 def skip():
     print("Nevermind, skipping..")
     pass
@@ -60,6 +61,8 @@ for x in inFile:
 for x in range(3):
     outFile.write(f"{results[x].lstrip()}\t")
 outFile.write(f"{time}\n")
+
+# cleaning up tasks
 outFile.close()
 inFile.close()
 os.remove("out.txt")
