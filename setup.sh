@@ -1,4 +1,5 @@
 #!/bin/sh
+# TODO: finish and test on linux!!!!!
 shopt -s extglob
 # script to setup speedteststats as a cron job
 echo "Setting up SpeedtestStats."
@@ -20,6 +21,7 @@ case $ARCH in
 	@(aarch))
 		ARCHDL="aarch"
 		;;
+	*)
 esac
 echo $ARCHDL
 printf "https://install.speedtest.net/app/cli/ookla-speedtest-1.1.1-linux-%s.tgz" $ARCHDL
