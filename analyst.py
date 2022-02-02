@@ -6,7 +6,7 @@
 import re
 import os
 from datetime import datetime
-
+import matplotlib.pyplot as plt 
 def skip():
     print("Nevermind, skipping..")
     pass
