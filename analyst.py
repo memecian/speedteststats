@@ -67,4 +67,4 @@ outFile.close()
 inFile.close()
 os.remove("out.txt")
 
-print(f"Done!")
+print("Done!")
